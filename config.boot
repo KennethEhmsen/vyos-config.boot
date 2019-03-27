@@ -87,24 +87,9 @@ system {
     }
     host-name vyos
     login {
-        user italianoaj {
-            authentication {
-                encrypted-password $6$yMaYZryw$A.T5nSDcwzuo3T68G0ED/.2f4Tj.0kOBUQw4ct6q0PGfRa/XlyiSazkoqOCwXYcNc9pCNlCN0tnjD.eKA7DRX0
-                plaintext-password ""
-            }
-            level admin
-        }
-        user kapacitor {
-            authentication {
-                encrypted-password $6$x9NnMWEptAQHhl/7$mpnav1y30f9ow8.cx/CV2Y5XC60OuPJurVXcltiC7JG/XGWM/bgnxBvVNNudtSSE9zZ8QSzHPkZ9KX7OmBP.v1
-                plaintext-password ""
-            }
-            full-name kapacitor
-            level admin
-        }
         user vyos {
             authentication {
-                encrypted-password $1$u8zLzFY0$O02GeXPSAfiLhfOLh/CjY0
+                encrypted-password *********
                 plaintext-password ""
             }
             level admin
